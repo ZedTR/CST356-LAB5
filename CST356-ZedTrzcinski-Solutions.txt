@@ -1,0 +1,13 @@
+Name:Zed Trzcinski	
+Date:02/17/208
+
+Briefly explain what dependency injection is and why it is beneficial?
+dependency injection is a design pattern whereby one object supplies the dependencies of another object. A dependency is an object that can be used (like the service example in the lab). 
+An injection is the passing of a dependency to a dependent object that would use it. The service is made part of the client's state. Passing the service to the client,
+rather than allowing a client to build or find the service.
+
+
+Briefly explain what unit tests are and why they are beneficial?
+Unit Testing is a testing method that invlove testing small pieces of code, this method allow testing in isolation
+from the rest of the production code. Unit test would allow code refactoring in a safe way that would allow to verify
+bugs are fixed and stays fixed.Unit testings can be run either manually or automated  
